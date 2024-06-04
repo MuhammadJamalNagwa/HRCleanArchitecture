@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRClean.Domain", "Core\HRClean.Domain\HRClean.Domain.csproj", "{08F9FFC4-C0A1-4AF6-83BC-92A3BBFB4BB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRClean.Application", "Core\HRClean.Application\HRClean.Application.csproj", "{B2E02C2B-CB10-4597-AC91-3F2DC111BBFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{94CB63D6-487F-4C86-B18D-48802B91EE45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{648A1A74-3EE4-4262-A19A-88C011A1E48A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRClean.API", "External\HRClean.API\HRClean.API.csproj", "{575EF133-D1CF-4304-B176-7143664DAC8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRClean.Persistence", "External\HRClean.Persistence\HRClean.Persistence.csproj", "{9A24507C-DEF2-48D4-A37B-205D4A9D0246}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08F9FFC4-C0A1-4AF6-83BC-92A3BBFB4BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F9FFC4-C0A1-4AF6-83BC-92A3BBFB4BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F9FFC4-C0A1-4AF6-83BC-92A3BBFB4BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F9FFC4-C0A1-4AF6-83BC-92A3BBFB4BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E02C2B-CB10-4597-AC91-3F2DC111BBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E02C2B-CB10-4597-AC91-3F2DC111BBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E02C2B-CB10-4597-AC91-3F2DC111BBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E02C2B-CB10-4597-AC91-3F2DC111BBFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575EF133-D1CF-4304-B176-7143664DAC8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575EF133-D1CF-4304-B176-7143664DAC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575EF133-D1CF-4304-B176-7143664DAC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575EF133-D1CF-4304-B176-7143664DAC8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A24507C-DEF2-48D4-A37B-205D4A9D0246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A24507C-DEF2-48D4-A37B-205D4A9D0246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A24507C-DEF2-48D4-A37B-205D4A9D0246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A24507C-DEF2-48D4-A37B-205D4A9D0246}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08F9FFC4-C0A1-4AF6-83BC-92A3BBFB4BB2} = {94CB63D6-487F-4C86-B18D-48802B91EE45}
+		{B2E02C2B-CB10-4597-AC91-3F2DC111BBFF} = {94CB63D6-487F-4C86-B18D-48802B91EE45}
+		{575EF133-D1CF-4304-B176-7143664DAC8B} = {648A1A74-3EE4-4262-A19A-88C011A1E48A}
+		{9A24507C-DEF2-48D4-A37B-205D4A9D0246} = {648A1A74-3EE4-4262-A19A-88C011A1E48A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52BA8A28-B044-4312-A82F-33FF8E13A34B}
+	EndGlobalSection
+EndGlobal
